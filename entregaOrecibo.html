@@ -142,7 +142,7 @@
         //var partesFecha = fechaAux.split('/');        
         // Reorganiza la fecha al formato dd/mm/yyyy
         var fecha = params.has('fecha') ? params.get('fecha') : "fecha";
-        var hora = params.has('hora') ? params.get('hora') : "hora";
+        //var hora = params.has('hora') ? params.get('hora') : "hora";
         var descripcion = params.has('descripcion') ? params.get('descripcion') : "descripcion";
 
 
@@ -164,7 +164,6 @@
         
         <div class="details">
             <p id="fecha">Fecha: </p>
-            <p id="hora">Hora: </p>
         </div>      
 
         <div class="lastTotal">         
@@ -207,7 +206,7 @@
         // Valores encabezado despues del logo
         var elemento2=document.getElementById("usuario").textContent =usuario 
         var elemento4=document.getElementById("fecha").textContent = "Fecha: " + fecha 
-        var elemento5=document.getElementById("hora").textContent = "Hora: " + hora
+        //var elemento5=document.getElementById("hora").textContent = "Hora: " + hora
 
         //valores datos de la factura
         var elemento9=document.getElementById("montoEfectivo").textContent = "Monto: " + montoEfectivo
